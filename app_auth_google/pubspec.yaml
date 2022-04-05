@@ -1,0 +1,36 @@
+name: app_auth_google
+description: app auth google Kauan
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^1.14.0
+  firebase_auth: ^3.3.12
+  google_sign_in: ^5.2.4
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.6  
+  http: ^0.13.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter    
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
